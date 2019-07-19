@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px auto;
+  min-height: 200px;
+  width: 400px;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.input-group {
+  margin: 10px 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 5px 0;
+}
+
+input {
+  padding: 2px 5px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  font-size: 16px;
+  width: 100%;
+}
+
+.label-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.label-input label {
+  text-align: right;
+  display: block;
+  width: 150px;
+  margin-right: 5px;
+}
+
+.checkbox-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.checkbox-input label {
+  width: 100%;
+}
+
+.checkbox-input input {
+  width: 20px;
+}
+
+.form p {
+  color: red;
+}
+
+.form button {
+  width: 100px;
+  padding: 5px 10px;
+  margin: 0 auto;
+}
